@@ -1,0 +1,19 @@
+<package>
+  <description brief="java_example">
+
+     java_example
+
+  </description>
+  <author>Nick Hawes</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/java_example</url>
+
+  <!-- LaserScan comes from here -->
+  <depend package="sensor_msgs"/>
+  <!-- Twist, used for sending commands to the robot base, comes from here -->
+  <depend package="geometry_msgs"/>
+
+</package>
+
+
